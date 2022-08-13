@@ -49,7 +49,6 @@ function App() {
         setLoading(true)
         try {
             const files = await getAllFiles(contract)
-            console.log(files)
             setFiles(files)
         } catch (e) {
             console.error(e)

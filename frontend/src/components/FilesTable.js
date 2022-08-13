@@ -21,7 +21,7 @@ function FilesTable({files}) {
             <tbody style={{fontSize: 14}}>
             {
                 files.map((file, index) =>
-                    <tr>
+                    <tr key={index}>
                         <th scope="row">{index + 1}</th>
                         <td>{file.name}</td>
                         <td>{file.description}</td>
