@@ -1,8 +1,8 @@
+import pytest
 from brownie import exceptions
 
 from scripts.deploy import deploy
 from scripts.helpful_scripts import get_account
-import pytest
 
 
 def test_file_upload():

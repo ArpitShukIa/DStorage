@@ -1,0 +1,112 @@
+{
+  "contracts": {
+    "DStorage": "a2411093a1d58524b9ae6ce0da236be68cb09bdd"
+  },
+  "tests": {
+    "tests/test_dstorage.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "d60eb0ab9174ec491537e26e1d8e3f2599ec9cd4",
+      "txhash": [
+        "24ba77cc5fa63591eabf0016dccd43cb2ff06790",
+        "6ada0974da102ea78513e719d294d2b95ab44229",
+        "dc9c926f7e2dd3ce85e8ea0db8b55615c2ba2e04",
+        "deb2921a85197a5c60f7c16e6580123ddbe31000",
+        "e8e51a3d9880a920d168dc5fc712d33a2a099c15"
+      ]
+    }
+  },
+  "tx": {
+    "24ba77cc5fa63591eabf0016dccd43cb2ff06790": {
+      "DStorage": {
+        "0": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ]
+        ]
+      }
+    },
+    "6ada0974da102ea78513e719d294d2b95ab44229": {
+      "DStorage": {
+        "0": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            13
+          ],
+          [
+            9,
+            10,
+            11,
+            12
+          ]
+        ]
+      }
+    },
+    "dc9c926f7e2dd3ce85e8ea0db8b55615c2ba2e04": {
+      "DStorage": {
+        "0": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            11
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      }
+    },
+    "deb2921a85197a5c60f7c16e6580123ddbe31000": {
+      "DStorage": {
+        "0": [
+          [
+            0,
+            1
+          ],
+          [
+            10
+          ],
+          [
+            9
+          ]
+        ]
+      }
+    },
+    "e8e51a3d9880a920d168dc5fc712d33a2a099c15": {
+      "DStorage": {
+        "0": [
+          [
+            0
+          ],
+          [
+            9
+          ],
+          []
+        ]
+      }
+    }
+  }
+}

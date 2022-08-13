@@ -28,4 +28,4 @@ def update_front_end():
 
 
 def main():
-    deploy(update_frontend=False)
+    deploy(update_frontend=True)
